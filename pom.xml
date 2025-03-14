@@ -75,18 +75,6 @@
 				</dependency>
 			</dependencies>
 		</profile>
-		<profile>
-			<id>docker-compose</id>
-			<dependencies>
-				<dependency>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-docker-compose</artifactId>
-					<version>3.3.4</version>
-					<scope>runtime</scope>
-					<optional>true</optional>
-				</dependency>
-			</dependencies>
-		</profile>
 	</profiles>
 
 	<dependencyManagement>
